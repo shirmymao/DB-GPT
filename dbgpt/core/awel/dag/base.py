@@ -780,6 +780,7 @@ class DAGContext:
         pass
 
 
+@dataclasses.dataclass
 class DAG:
     """The DAG class.
 
